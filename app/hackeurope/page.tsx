@@ -38,7 +38,7 @@ export default function HackEuropePage() {
         </p>
       </NoteCard>
 
-      <PinnedPhoto src="/hackeurope/hackeurope-celcius-cans.png" alt="Selfie with Celsius cans" caption="So many Celsius cans" rotate="rotate-1" />
+      <PinnedPhoto src="/hackeurope/hackeurope-celcius-cans.png" alt="Selfie with Celsius cans" caption="So many Celsius cans..." rotate="rotate-1" />
 
       {/* <div className="mb-8 inline-block w-full">
         <Image

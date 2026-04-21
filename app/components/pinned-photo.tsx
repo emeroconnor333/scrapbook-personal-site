@@ -9,7 +9,7 @@ interface PinnedPhotoProps {
 
 export default function PinnedPhoto({ src, alt, caption, rotate = "rotate-1" }: PinnedPhotoProps) {
   return (
-    <div className={`mb-8 ${rotate} transition-transform duration-200 hover:scale-[1.02] inline-block w-full`}>
+    <div className={`mb-4 ${rotate} transition-transform duration-200 hover:rotate-2 inline-block w-full`}>
       <div className="bg-white pt-2 px-2 pb-2 shadow-md">
         <Image
           src={src}

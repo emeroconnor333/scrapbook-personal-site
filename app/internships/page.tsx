@@ -35,7 +35,7 @@ export default function InternshipsPage() {
           My intern project at AWS was a POC for the RDS dashboard that replaced existing REST APIs with GraphQL to reduce latency for customers with a large number of databases. This POC cut page load time by 66% for large accounts.
         </p>
         <p className="mt-3">
-          I also worked on production features including a customer survey end-to-end, frontend updates to reflect AWS API changes, and accessibility and bug fixes.
+          I also worked on production features including a customer survey within the dashboard, frontend updates to reflect AWS API changes, and accessibility and bug fixes.
         </p>
         <p className="mt-3">
           I had a really great experience thanks to the support of my team and the positive learning environment AWS provided.
@@ -45,8 +45,6 @@ export default function InternshipsPage() {
       <PinnedPhoto src="/internships/inside-aws-office.jpg" alt="Inside the AWS office" caption=" " rotate="-rotate-1" />
 
       <PinnedPhoto src="/internships/cafe-coding.png" alt="Cafe coding" caption="My fav place to code <3" rotate="rotate-1" />
-
-      <PinnedPhoto src="/internships/flower-arranging.png" alt="Flower arranging workshop supporting Breast Cancer Ireland" caption="Flower arranging workshop supporting Breast Cancer Ireland" rotate="-rotate-1" />
 
       <PinnedPhoto src="/internships/uk-and-ireland-live.png" alt="UK and Ireland Amazon event" caption="UK and Ireland Amazon event" rotate="-rotate-1" />
 
