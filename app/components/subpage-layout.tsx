@@ -5,9 +5,10 @@ import { useDragScroll } from "../hooks/useDragScroll";
 interface SubpageLayoutProps {
   children?: React.ReactNode;
   patternSrc: string;
+  columnWidth?: string;
 }
 
-export default function SubpageLayout({ children, patternSrc }: SubpageLayoutProps) {
+export default function SubpageLayout({ children, patternSrc, columnWidth = "280px" }: SubpageLayoutProps) {
   const { ref, onMouseDown, onMouseUp, onMouseLeave, onMouseMove } = useDragScroll();
 
   return (
@@ -36,7 +37,7 @@ export default function SubpageLayout({ children, patternSrc }: SubpageLayoutPro
       <div
         className="relative z-10 px-16 py-8"
         style={{
-          columns: "280px",
+          columns: columnWidth,
           columnGap: "2rem",
           columnFill: "auto",
           maxHeight: "74vh",
