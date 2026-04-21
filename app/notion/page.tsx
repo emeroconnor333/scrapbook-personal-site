@@ -15,11 +15,11 @@ export default function NotionPage() {
         </p>
       </NoteCard>
 
-      <PinnedPhoto src="/notion/template-metrics.png" alt="Template metrics" rotate="rotate-0" />
+      <PinnedPhoto src="/notion/template-metrics.png" alt="Template metrics" rotate="rotate-0" priority />
 
-      <PinnedPhoto src="/notion/template-reviews.png" alt="Template reviews" rotate="rotate-0" />
+      <PinnedPhoto src="/notion/template-reviews.png" alt="Template reviews" rotate="rotate-0" priority />
 
-      <PinnedPhoto src="/notion/meal-planner-template.png" alt="The Ultimate Meal Planner" rotate="rotate-0" />
+      <PinnedPhoto src="/notion/meal-planner-template.png" alt="The Ultimate Meal Planner" rotate="rotate-0" priority />
 
       <PinnedPhoto src="/notion/goal-planner-template.png" alt="Goal Planner" rotate="rotate-0" />
 
