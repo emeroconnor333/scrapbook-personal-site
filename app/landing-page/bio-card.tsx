@@ -9,7 +9,7 @@ export default function BioCard() {
       {/* Bio text */}
       <div className="relative z-10 flex-1 space-y-1.5 text-base leading-relaxed text-stone-700 font-playfair">
         <p>
-          Hey, I&apos;m Emer ♡
+          Hey, I&apos;m Emer ♡ 
         </p>
         <p>  
           I&apos;m an ISE student with a passion for creating things that are both useful

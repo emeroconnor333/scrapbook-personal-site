@@ -5,7 +5,7 @@ const pageLinks = [
   { id: "bsc", title: "immersive software engineering", href: "/ise", painting: "/landing-page/paintings/hokusai-1.jpeg" },
   { id: "internships", title: "internships", href: "/internships", painting: "/landing-page/paintings/hokusai-2.jpeg" },
   { id: "hackeurope", title: "hackeurope", href: "/hackeurope", painting: "/landing-page/paintings/hokusai-3.jpeg" },
-  { id: "sewing", title: "sewing & crochet", href: "/sewing", painting: "/landing-page/paintings/hokusai-4.jpeg" },
+  { id: "creative", title: "creative hobbies", href: "/creative", painting: "/landing-page/paintings/hokusai-4.jpeg" },
   { id: "notion", title: "notion templates", href: "/notion", painting: "/landing-page/paintings/hokusai-5.jpeg" },
 ];
 

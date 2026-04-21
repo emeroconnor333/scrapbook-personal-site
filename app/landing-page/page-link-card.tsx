@@ -10,7 +10,7 @@ interface PageLinkCardProps {
 export default function PageLinkCard({ title, href, painting }: PageLinkCardProps) {
   return (
     <Link href={href} className="block h-full">
-      <div className="relative h-full w-full overflow-hidden flex items-center justify-center">
+      <div className="relative h-full w-full overflow-hidden flex items-center justify-center bg-amber-100">
         {/* Painting background */}
         <Image src={painting} alt="" fill className="object-cover" />
 
